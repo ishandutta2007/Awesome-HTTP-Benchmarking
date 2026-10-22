@@ -30,47 +30,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global performance and load testing market is valued between $1.5B and $3B+ (projected to reach $6B–$7B+ by the mid-2030s at a CAGR of 11–16%). The sector is moderately to highly fragmented rather than winner-take-all, divided across massive open-source frameworks (JMeter, Gatling, k6, Locust), specialized cloud-native testing SaaS, and expanding observability/APM giants integrating synthetic load generation into unified platforms.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[BlazeMeter](https://www.blazemeter.com/)**  
-
-  Enterprise load testing platform built on Apache JMeter, offering cloud-scale distributed testing, real-time reporting, and integrations with CI/CD and APM tools. **Pricing**: free tier with limited virtual users; paid plans scale with VUH (virtual user hours) and features. Best for teams that want JMeter's flexibility without managing injection infrastructure.
-
-
-
-- **[NeoLoad (Tricentis)](https://www.tricentis.com/products/performance-testing-neoload)**  
-
-  Enterprise performance testing platform with GUI-driven test design, protocol coverage beyond HTTP, and AI-assisted analysis. Commercial, enterprise-priced. Best for large organizations needing comprehensive performance validation across complex protocols.
-
-
-
-- **[OctoPerf](https://octoperf.com/)**  
-
-  Load testing platform with a visual test designer and cloud execution. Supports JMeter, Gatling, and Selenium. **Pricing**: free tier available; paid plans scale with virtual users. Best for teams that want a modern GUI on top of open-source engines without self-hosting.
-
-
-
-- **[Loader.io](https://loader.io/)**  
-
-  Simple cloud-based load testing service focused on HTTP endpoints. Free tier allows limited tests; paid plans increase capacity. Best for quick, ad-hoc load checks without setup.
-
-
-
-- **[Flood.io (now Tricentis Flood)](https://flood.io/)**  
-
-  Cloud load testing platform supporting JMeter, Gatling, and Selenium scripts. Usage-based pricing. Best for teams that want to run existing open-source test scripts at cloud scale.
+| Platform | Company Scale (Valuation / Revenue) | Starting Price | Free Tier / Free Trial Limits | Description |
+| --- | --- | --- | --- | --- |
+| **[NeoLoad (Tricentis)](https://www.tricentis.com/products/performance-testing-neoload)** | ~$4.5B valuation (~$500M ARR; parent: Tricentis) | ~$20,000/year (enterprise licensing) | 14-day free trial limited to 10 Virtual Users (VUs) | Enterprise performance testing platform offering codeless test design, protocol coverage beyond HTTP, and AI-assisted analysis for enterprise CI/CD workflows. |
+| **[Flood.io (Tricentis Flood)](https://flood.io/)** | ~$4.5B valuation (~$500M ARR; parent: Tricentis) | Historical starting tier ~$23–$49/mo (reached EOL June 30, 2024; superseded by NeoLoad) | 5 free grid node hours (1 node concurrency) historically; free trial via Tricentis NeoLoad today | Cloud load testing platform supporting JMeter, Gatling, and Selenium scripts via distributed cloud grid nodes. |
+| **[BlazeMeter](https://www.blazemeter.com/)** | ~$500M+ revenue / multi-billion valuation (parent: Perforce Software) | $99/month (Basic plan, up to 1,000 VUs) | Free forever: up to 50 max VUs, 1 shared load generator, 10 tests/month, max 20 min/test | Enterprise load testing platform built on Apache JMeter, offering cloud-scale distributed testing, real-time reporting, and integrations with CI/CD and APM tools. |
+| **[Loader.io](https://loader.io/)** | ~$3B valuation at acquisition / ~$111M+ ARR (parent/lineage: SendGrid / Twilio) | $99.95/month (Pro plan) | Free forever: up to 10,000 clients/users per test, 1 target host, 1-minute test duration, aggregated stats | Simple cloud-based load testing service focused on quick, ad-hoc HTTP endpoint and API checks without complex setup. |
+| **[OctoPerf](https://octoperf.com/)** | Bootstrapped / Private (~$1M–$5M estimated revenue) | $69–$99/test-hour (on-demand) or from ~$649/month (unlimited subscriptions) | Free forever (Community): up to 50 concurrent VUs, unlimited tests, max 20 min/test, 1 parallel run | Load testing platform with a visual test designer and cloud execution supporting JMeter, Gatling, and Selenium scripts with full reporting. |
 
 
 
