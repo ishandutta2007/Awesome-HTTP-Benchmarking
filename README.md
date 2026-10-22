@@ -65,9 +65,9 @@ Enterprise SaaS solutions offer turnkey distributed load generation, visual scen
 
 ## 💻 Open-Source GitHub Projects
 
-Open-source load generators are ranked below in descending order by GitHub Stars. Each repository includes a real-time star badge linking directly to its stargazers page.
+Open-source load generators are ranked below in descending order by GitHub_Stars. Each repository includes a real-time Stars_Badge linking directly to its stargazers page.
 
-### 1. **[wrk](https://github.com/wg/wrk)** [![GitHub stars](https://img.shields.io/github/stars/wg/wrk?style=social&color=white)](https://github.com/wg/wrk/stargazers)
+### 1. **[wrk](https://github.com/wg/wrk)** [![GitHub_Stars](https://img.shields.io/github/stars/wg/wrk?style=social&color=white)](https://github.com/wg/wrk/stargazers)
 * **Language / Runtime:** C
 * **Overview:** **The raw single-machine throughput champion.** Combines a multithreaded design with scalable OS event notification mechanisms (`epoll`, `kqueue`) to generate staggering request volumes from minimal hardware footprint.
 * **Key Features:** LuaJIT scripting engine enables dynamic request construction and custom response processing. Running `wrk -t12 -c400 -d30s` drives 12 threads and 400 connections with virtually zero internal overhead.
@@ -76,7 +76,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 2. **[k6 (Grafana k6)](https://github.com/grafana/k6)** [![GitHub stars](https://img.shields.io/github/stars/grafana/k6?style=social&color=white)](https://github.com/grafana/k6/stargazers)
+### 2. **[k6 (Grafana k6)](https://github.com/grafana/k6)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/k6?style=social&color=white)](https://github.com/grafana/k6/stargazers)
 * **Language / Runtime:** Go (ES6 JavaScript scripting engine)
 * **Overview:** **The developer-centric standard for modern CI/CD load testing.** Built from the ground up for engineering teams who treat performance tests as version-controlled code.
 * **Key Features:** Clean JavaScript API for modeling complex user scenarios, threshold checks, and step-load ramping. Integrates natively with Grafana dashboards, Datadog, Prometheus, New Relic, and cloud APM systems. Supports HTTP/1.1, HTTP/2, WebSocket, gRPC, and browser automation via Playwright APIs.
@@ -85,7 +85,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 3. **[Locust](https://github.com/locustio/locust)** [![GitHub stars](https://img.shields.io/github/stars/locustio/locust?style=social&color=white)](https://github.com/locustio/locust/stargazers)
+### 3. **[Locust](https://github.com/locustio/locust)** [![GitHub_Stars](https://img.shields.io/github/stars/locustio/locust?style=social&color=white)](https://github.com/locustio/locust/stargazers)
 * **Language / Runtime:** Python (gevent coroutines)
 * **Overview:** **The Python ecosystem's premier distributed load testing tool.** Write user workflows in readable Python with arbitrary logic, loops, external SDK calls, and assertions.
 * **Key Features:** Event-driven coroutines enable a single process to simulate thousands of concurrent users. Master/worker architecture scales seamlessly across distributed worker nodes to hundreds of thousands of users. Includes an interactive real-time web dashboard displaying live latency charts, error rates, and dynamic user count adjustment.
@@ -94,7 +94,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 4. **[Vegeta](https://github.com/tsenart/vegeta)** [![GitHub stars](https://img.shields.io/github/stars/tsenart/vegeta?style=social&color=white)](https://github.com/tsenart/vegeta/stargazers)
+### 4. **[Vegeta](https://github.com/tsenart/vegeta)** [![GitHub_Stars](https://img.shields.io/github/stars/tsenart/vegeta?style=social&color=white)](https://github.com/tsenart/vegeta/stargazers)
 * **Language / Runtime:** Go
 * **Overview:** **The constant-rate HTTP load testing utility and library.** Designed explicitly for drilling HTTP services at sustained, predictable request rates (e.g. constant 5,000 RPS).
 * **Key Features:** Can be used either as a command-line binary with UNIX pipe composability (`vegeta attack | vegeta report`) or imported as a reusable Go library. Outputs rich terminal histogram plots and HDR latency distributions.
@@ -103,7 +103,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 5. **[hey](https://github.com/rakyll/hey)** [![GitHub stars](https://img.shields.io/github/stars/rakyll/hey?style=social&color=white)](https://github.com/rakyll/hey/stargazers)
+### 5. **[hey](https://github.com/rakyll/hey)** [![GitHub_Stars](https://img.shields.io/github/stars/rakyll/hey?style=social&color=white)](https://github.com/rakyll/hey/stargazers)
 * **Language / Runtime:** Go
 * **Overview:** **The modern replacement for ApacheBench (ab).** Lightweight, single-binary CLI tool for quick, reliable HTTP benchmarking.
 * **Key Features:** Supports HTTP/2, custom HTTP headers, basic authentication, proxy settings, and concurrent request worker pools. Generates a clean terminal latency distribution table and status code breakdown.
@@ -112,7 +112,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 6. **[Apache JMeter](https://github.com/apache/jmeter)** [![GitHub stars](https://img.shields.io/github/stars/apache/jmeter?style=social&color=white)](https://github.com/apache/jmeter/stargazers)
+### 6. **[Apache JMeter](https://github.com/apache/jmeter)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/jmeter?style=social&color=white)](https://github.com/apache/jmeter/stargazers)
 * **Language / Runtime:** Java
 * **Overview:** **The protocol-agnostic veteran of enterprise load testing.** The most battle-tested open-source load testing tool in the industry with twenty+ years of production adoption.
 * **Key Features:** Comprehensive visual GUI for composing intricate test trees, extractors, assertion policies, and timers. Supports exhaustive protocol stacks: HTTP, HTTPS, SOAP, REST, JDBC database queries, LDAP, JMS, FTP, and TCP. Unmatched third-party plugin ecosystem.
@@ -121,7 +121,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 7. **[Artillery](https://github.com/artilleryio/artillery)** [![GitHub stars](https://img.shields.io/github/stars/artilleryio/artillery?style=social&color=white)](https://github.com/artilleryio/artillery/stargazers)
+### 7. **[Artillery](https://github.com/artilleryio/artillery)** [![GitHub_Stars](https://img.shields.io/github/stars/artilleryio/artillery?style=social&color=white)](https://github.com/artilleryio/artillery/stargazers)
 * **Language / Runtime:** TypeScript / Node.js
 * **Overview:** **Cloud-native, serverless load testing platform.** Test HTTP APIs, GraphQL, WebSocket, Socket.io, and browser journeys using declarative YAML configurations.
 * **Key Features:** Serverless distributed execution directly on AWS Lambda, AWS Fargate, or Kubernetes via `artillery run-fargate`. Supports Playwright browser tests to measure Core Web Vitals and frontend user experience under peak load.
@@ -130,7 +130,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 8. **[Autocannon](https://github.com/mcollina/autocannon)** [![GitHub stars](https://img.shields.io/github/stars/mcollina/autocannon?style=social&color=white)](https://github.com/mcollina/autocannon/stargazers)
+### 8. **[Autocannon](https://github.com/mcollina/autocannon)** [![GitHub_Stars](https://img.shields.io/github/stars/mcollina/autocannon?style=social&color=white)](https://github.com/mcollina/autocannon/stargazers)
 * **Language / Runtime:** Node.js
 * **Overview:** **Ultra-fast HTTP/1.1 benchmarking tool written in Node.js.** Inspired by `wrk` with 100% JavaScript and Node.js ergonomics.
 * **Key Features:** Supports HTTP pipelining, rate limiting, dynamic request payloads, and programmatic Node.js API usage. Capable of generating over 100,000+ requests per second on modern hardware despite being written in JavaScript.
@@ -139,7 +139,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 9. **[Gatling](https://github.com/gatling/gatling)** [![GitHub stars](https://img.shields.io/github/stars/gatling/gatling)](https://github.com/gatling/gatling/stargazers)
+### 9. **[Gatling](https://github.com/gatling/gatling)** [![GitHub_Stars](https://img.shields.io/github/stars/gatling/gatling)](https://github.com/gatling/gatling/stargazers)
 * **Language / Runtime:** Scala / Java / Kotlin / TypeScript
 * **Overview:** **The high-efficiency non-blocking DSL framework.** Built on Netty and asynchronous IO to simulate tens of thousands of virtual users per machine without thread exhaustion.
 * **Key Features:** Expressive, code-as-configuration DSL available in Java, Kotlin, Scala, and TypeScript. Generates comprehensive, interactive HTML reports with detailed latency percentiles (p50, p95, p99), response times, and failure distributions.
@@ -148,7 +148,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 10. **[Bombardier](https://github.com/codesenberg/bombardier)** [![GitHub stars](https://img.shields.io/github/stars/codesenberg/bombardier?style=social&color=white)](https://github.com/codesenberg/bombardier/stargazers)
+### 10. **[Bombardier](https://github.com/codesenberg/bombardier)** [![GitHub_Stars](https://img.shields.io/github/stars/codesenberg/bombardier?style=social&color=white)](https://github.com/codesenberg/bombardier/stargazers)
 * **Language / Runtime:** Go
 * **Overview:** **Fast cross-platform HTTP benchmarking CLI tool.** Written in Go using `fasthttp` and standard `net/http` clients.
 * **Key Features:** Supports both standard Go HTTP client and ultra-fast `fasthttp`, allowing developers to isolate framework overhead. Simple command line flags for connection concurrency, duration, timeout, and rate-limiting.
@@ -157,7 +157,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 11. **[Siege](https://github.com/JoeDog/siege)** [![GitHub stars](https://img.shields.io/github/stars/JoeDog/siege?style=social&color=white)](https://github.com/JoeDog/siege/stargazers)
+### 11. **[Siege](https://github.com/JoeDog/siege)** [![GitHub_Stars](https://img.shields.io/github/stars/JoeDog/siege?style=social&color=white)](https://github.com/JoeDog/siege/stargazers)
 * **Language / Runtime:** C
 * **Overview:** **Classic multi-threaded HTTP load testing and benchmarking utility.** An open-source staple for Unix/Linux sysadmins since the early days of web server benchmarking.
 * **Key Features:** Reads lists of URLs from a file (`urls.txt`) to hit diverse application paths randomly or sequentially. Supports basic authentication, cookies, transaction logging, and proxy handling.
@@ -166,7 +166,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 12. **[wrk2](https://github.com/giltene/wrk2)** [![GitHub stars](https://img.shields.io/github/stars/giltene/wrk2?style=social&color=white)](https://github.com/giltene/wrk2/stargazers)
+### 12. **[wrk2](https://github.com/giltene/wrk2)** [![GitHub_Stars](https://img.shields.io/github/stars/giltene/wrk2?style=social&color=white)](https://github.com/giltene/wrk2/stargazers)
 * **Language / Runtime:** C
 * **Overview:** **Constant-throughput variant of wrk with coordinated omission correction.** Developed by Gil Tene to measure true client-experienced latency under sustained load.
 * **Key Features:** Enforces strict constant throughput rates (`-R` parameter) and accurately captures latency percentiles (up to p99.999) without falling victim to coordinated omission, where slow responses stall subsequent requests and distort latency measurements.
@@ -175,7 +175,7 @@ Open-source load generators are ranked below in descending order by GitHub Stars
 
 ---
 
-### 13. **[Fortio](https://github.com/fortio/fortio)** [![GitHub stars](https://img.shields.io/github/stars/fortio/fortio?style=social&color=white)](https://github.com/fortio/fortio/stargazers)
+### 13. **[Fortio](https://github.com/fortio/fortio)** [![GitHub_Stars](https://img.shields.io/github/stars/fortio/fortio?style=social&color=white)](https://github.com/fortio/fortio/stargazers)
 * **Language / Runtime:** Go
 * **Overview:** **Fast, resilient microservice load tester and echo server.** Originally created as the benchmarking tool for Istio service mesh performance evaluations.
 * **Key Features:** Runs as a CLI, standalone Go library, or embedded daemon with an interactive web UI. Supports specified queries-per-second (QPS), records rich latency histograms, and includes specialized gRPC and TCP load testing modules.
